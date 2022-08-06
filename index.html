@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Quizzz</title>
+</head>
+<body>
+    <!-- Ajout d'un conteneur non sémantique 
+        pour le reste une série de div imbriquées
+        (contenues les unes dans les autres)
+    -->
+    <div class="container">
+        <div id="question-container" class="hide">
+            <div id="answer-buttons" class="btn-grid">
+                <button class="btn">Réponse 1</button>
+                <button class="btn">Réponse 2</button>
+                <button class="btn">Réponse 3</button>
+                <button class="btn">Réponse 4</button>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="start-btn" class="start-btn btn">Commencer</button>
+            <button id="next-btn" class="next-btn btn hide">Suivant</button>
+        </div>
+    </div>
+    <div class="score">
+        <span id=right-answers""></span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
